@@ -50,7 +50,8 @@
   },
   "notUse_dependencies":{
     "shortid": "^2.2.6"
-  }
+  },
+  
   "pre-commit": [
     "lint"
   ]
