@@ -1,9 +1,10 @@
 import getParams from 'get-params';
 import jsan from 'jsan';
-import shortid from 'shortid';
+//import shortid from 'shortid';
 
 export function generateId(id) {
-  return id || shortid.generate();
+  //return id || shortid.generate();
+  return id || 'abcdefg';
 }
 
 function flatTree(obj, namespace = '') {
